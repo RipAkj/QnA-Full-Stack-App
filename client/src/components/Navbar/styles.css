@@ -1,0 +1,121 @@
+#Navbar {
+    width: 100vw;
+    height: 9vh;
+    box-shadow: 0px 0 5px 1px rgb(231, 230, 230);
+    display: flex;
+    background: #fff;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.Navbar-left{
+    flex-basis: 40%;
+    margin: auto;
+}
+.Navbar-left>h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(241, 72, 72);
+}
+.Navbar-middle{
+    flex-basis: 25%;
+    margin: auto;
+}
+.Search-bar{
+    width: 300px;
+    height: 4vh;
+    margin: 4px;
+    padding: 6px 15px;
+    border: none;
+    box-shadow: 0 0 2px 1px rgb(185, 184, 184);
+    border-radius: 2vh;
+}
+.Navbar-right{
+    width: 180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 8px; */
+}
+/* .UserInfo{
+    min-width: 50px;
+}
+.UserInfo h3{
+    min-width: 50px;
+} */
+.User{
+    display:  flex;
+    align-items: center;
+}
+.logout{
+    font-size: 16px;
+    font-weight: 550;
+    color: rgb(27, 27, 27);
+    background: #fff;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.185);
+    height: 40px;
+    width: 150px;
+    padding: 10px 6px;
+    /* text-align: center; */
+    position: absolute;
+    top: 9vh;
+    right: 12vw;
+    z-index: 99;
+}
+.logout h3{
+    width: 150px;
+}
+.openlogout{
+    display: block;
+}
+.closelogout{
+    display: none;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin: 0 10px;
+  }
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: relative;
+    top: -4px;
+  }  
+  .UserInfo{
+      display: flex;
+      align-items: center;
+  }
+
+  @media(max-width:500px){
+      .Navbar-right{
+          width: 100px;
+          justify-content: flex-end;
+          margin: 0;
+      }
+      .Navbar-left{
+          margin: auto 15px;
+      }
+      #Navbar{
+          justify-content: space-between;
+      }
+      .Navbar-left>h2{
+          font-size: 25px;
+          font-weight: 600;
+      }
+    .UserInfo{
+        width: 0px;
+        display: none;
+    }
+    .logout{
+        right: 8px;
+        z-index: 99;
+    }
+  }

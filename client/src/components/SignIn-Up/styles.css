@@ -1,0 +1,74 @@
+.Auth{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background: rgba(255, 2, 2, 0.034);
+    display: flex;
+}
+.Auth-container{
+    width: 450px;
+    min-height: 200px;
+    padding: 2.5rem 1rem;
+    background: #fff;
+    margin: auto;
+    border-radius: 2px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.322);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Auth-container>h2{
+    font-size: 25px;
+    color: rgb(41, 40, 40);
+}
+.auth-form{
+    width: 100%;
+    padding: 0.5rem;
+    margin: 1rem 0;
+}
+.AuthInput{
+    width: 100%;
+    margin: 1rem 0;
+}
+.Input-div{
+    display: flex;
+}
+.Input-div>input{
+    width: 100%;
+    height: 40px;
+    border: 2.5px solid rgba(9, 113, 250, 0.596);
+    border-radius: 3px;
+    padding: 0 1rem;
+    font-size: 15px;
+}
+.Input-div>button{
+    height: 40px;
+    width: 40px;
+    z-index: 4;
+}
+.Auth-container h5{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    cursor: pointer;
+}
+.auth-form>input{
+    display: block;
+    width: 100px;
+    height: 35px;
+    background: rgb(236, 52, 52);
+    font-size: 18px;
+    color: white;
+    margin-top: 2rem;
+    margin: 1rem auto;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+@media(max-width:450px){
+    .Auth-container{
+        width: 96%;
+    }
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(32, 32, 32);
+}
+.btn-primary{
+    padding: 5px 15px;
+    margin: auto;
+    background: transparent;
+    border-radius: 6px;
+    border: 2px solid red;
+    font-size: 18px;
+    font-weight: 600;
+    color: red;
+    text-decoration: none;
+}
+.btn-secondary{
+    margin: auto;
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px 1rem;
+}
+.btn-curved{
+    padding: 3px 10px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1.5px solid red;
+    margin: 0 15px;
+    text-decoration: none;
+}

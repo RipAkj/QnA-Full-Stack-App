@@ -1,0 +1,91 @@
+#Question{
+    width: 100%;
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+    background: #fff;
+    box-shadow: 0 0 1px 0.5px rgb(219, 218, 218);
+    margin: 0.5rem 0;
+    border-radius: 2px;
+}
+.Username{
+    display: flex;
+    padding-bottom: 15px;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    background: #ee8585;
+    border-radius: 50%;
+    margin-right: 20px;
+    align-items: center;
+}
+.avatar>h1{
+    color: white;
+    font-size: 22px;
+    margin: auto;
+    position: relative;
+    top: 18%;
+    left: 31%;
+    text-transform: capitalize;
+}
+.UserText>h5{
+    color: grey;
+    font-weight: 450;
+}
+.Question-header{
+    padding: 0.5rem;
+    margin: 5px 8px;
+}
+.Question-header>h3{
+    padding: 0.3rem;
+    font-size: 20px;
+    font-weight: 550;
+    color: rgb(70, 69, 69);
+}
+.answerContainer{
+    width: 100%;
+    margin: 0.5rem auto;
+    background: #fff;
+    box-shadow: 0 0 1px 0.5px rgb(219, 218, 218);
+    border-radius: 2px;
+    padding: 0.5rem;
+}
+.ans-heading{
+    font-size: 23px;
+    font-weight: 600;
+    padding: 5px 0;
+    color: rgb(43, 42, 42);
+    margin-left: 30px;
+}
+.Comment-Box{
+    margin: 6px 0;
+}
+.comment-bar{
+    width: 96%;
+    height: 4vh;
+    margin: 0 10px;
+    padding: 6px 15px;
+    border: none;
+    box-shadow: 0 0 2px 1px rgb(185, 184, 184);
+    border-radius: 2vh;
+}
+.openBox{
+    display: none;
+}
+.closeBox{
+    display:block;
+}
+.ViewAnswer{
+    width: 50vw;
+    min-width: 345px;
+    height: 35px;
+    position: relative;
+    top: -0.5rem;
+    background: #fff;
+    box-shadow: 0 0 1px 0.5px rgb(219, 218, 218);
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 500;
+}
